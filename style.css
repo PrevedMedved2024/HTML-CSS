@@ -1,0 +1,31 @@
+.body .avatar {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 1px 10px black;
+  float: left;
+  margin-right: 30px;
+}
+
+.bio {
+  padding-top: 5px;
+}
+
+.name {
+  color: blue;
+}
+
+.button {
+  background: wheat;
+  border: 1px;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+}
+button:hover {
+  background: blueviolet;
+}
+button:active {
+  background: red;
+}
