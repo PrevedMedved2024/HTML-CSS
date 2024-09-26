@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+img {
+  width: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  padding: 0 30px;
+}
+
+nav {
+  padding: 30px 0 30px 0;
+}
+.navigacion > .li {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.navigacion > li:last-child {
+  margin-right: 0;
+}
+
+nav > .logo {
+  float: left;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+nav > .navigacion {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+article {
+  background: red;
+  width: 100%;
+  position: relative;
+}
+article > img {
+  width: 100%;
+  display: block;
+}
+
+article > .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 32px;
+  font-weight: bold;
+}
+
+main {
+  margin-top: 30px;
+}
+.left-main-content {
+  width: 40%;
+  float: left;
+  padding-top: 100px;
+}
+.left-list-content {
+  padding: 0 0 0 50px;
+  font-size: 150%;
+}
+.left-list-content > p {
+  background: red;
+  padding: 50px;
+}
+p {
+  font-size: 26px;
+  padding: 0 50px 0 0;
+}
+
+.right-main-content {
+  float: right;
+  padding-top: 100px;
+  width: 40%;
+  padding-right: 50px;
+}
+.right-list-content {
+  padding: 0 50px 0 0;
+}
+.email-content {
+  float: left;
+}
+.iphone-content {
+  float: right;
+}
+button {
+  float: right;
+  margin: 0 auto;
+}
+.button-black {
+  width: 240px;
+  height: 50px;
+  background: black;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  height: 400px;
+}
+.footer > .navigacion {
+  margin-top: 400px;
+}
